@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index template</title>
+</head>
+<body>
+    <!-- {{name}} is {{age}} years old  -->
+    <h1>welcome to text analyser</h1>
+    <h3>enter your text below</h3>
+    <form action="/analyze" method="get">
+        <textarea name="text" style="margin: 0px; width: 1301px; height: 93px;"></textarea><br>
+        <input type="checkbox" name="removepunc">Remove punctutions<br>
+        <input type="checkbox" name="fullcaps">UPPERCASE<br>
+        <input type="checkbox" name="newlineremover">newlineremover<br>
+        <input type="checkbox" name="extraspaceremover">extra space remover<br>
+        <input type="checkbox" name="charcount">character counted are....<br>
+        <button type="submit">analyse text</button>
+    </form>
+</body>
+</html>
